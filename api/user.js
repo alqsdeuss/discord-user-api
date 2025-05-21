@@ -6,7 +6,6 @@ export default function handler(req, res) {
     return;
   }
 
-  // Generare date mock automat pe baza id-ului
   const userData = {
     id,
     username: `User_${id.slice(-4)}`,
